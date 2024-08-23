@@ -105,7 +105,7 @@ def main():
     pcd_files = sorted([os.path.join(pcd_dir, f) for f in os.listdir(pcd_dir) if f.endswith('.bin')])
 
     # Load the camera settings from the JSON file
-    camera_settings = load_camera_settings_from_json('camera_settings.json')
+    camera_settings = load_camera_settings_from_json('data/camera_settings.json')
 
     # Visualize the multiple point clouds with the loaded camera settings
     visualize_multiple_point_clouds(image_files, pcd_files, camera_settings)
