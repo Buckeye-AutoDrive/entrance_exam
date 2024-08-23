@@ -3,8 +3,10 @@ import plotly.graph_objs as go
 import plotly.io as pio
 from plotly.subplots import make_subplots
 from PIL import Image
+import time
 import os
 import json
+from ground_removal import ground_removal
 
 def load_point_cloud(file_path):
     point_cloud = np.fromfile(file_path, dtype=np.float32).reshape(-1, 4)
@@ -36,7 +38,12 @@ def visualize_multiple_point_clouds(image_files, pcd_files, camera_settings):
 
         # Load and process the point cloud
         points = load_point_cloud(pcd_path)
+
+        start = time.time()
         filtered_points = ground_removal(points)
+        end = time.time() - start
+
+        print(f"Data {i + 1} Ground Removal Inference Time: {end}")
 
         # Raw Point Cloud
         raw_trace = go.Scatter3d(
@@ -74,16 +81,14 @@ def visualize_multiple_point_clouds(image_files, pcd_files, camera_settings):
         scene_id2 = f'scene{i * 2 + 2}'
         fig.update_layout({scene_id2: dict(aspectmode='data', camera=camera_settings[i])})
 
-    # Set the resolution for a clearer display and remove the legend
-    fig.update_layout(width=1800, height=600 * num_data, showlegend=False)  # Adjust height based on number of rows
+    fig.update_layout(
+        autosize=True,
+        height=600 * num_data,
+        showlegend=False,
+        margin=dict(l=30, r=30, t=60, b=30),
+    )
 
     pio.show(fig)
-
-def ground_removal(points):
-
-    non_ground_points = points
-
-    return non_ground_points
 
 def main():
     image_dir = "data/images"
