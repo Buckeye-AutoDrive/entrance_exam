@@ -17,7 +17,7 @@ In this task, you'll focus on 2D image object detection using a neural network. 
    - Use the YOLO model to perform object detection on the sample images. Ensure that the model processes all five images.
 
 5. **Implement Your Code**
-   - Implement your object detection code in the `2d_detection.py` file provided in the repository. This file is currently empty and should be used to write your solution.
+   - Implement your object detection code in the `detection_2d.py` file provided in the repository. This file is currently empty and should be used to write your solution.
 
 6. **Draw Bounding Boxes and Label Detected Objects**
    - Once detection is complete, draw bounding boxes around the detected objects and label each box with the corresponding object name. Use any appropriate method or tool for this step.
