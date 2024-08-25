@@ -9,7 +9,7 @@ This repository contains everything you need to complete the entrance exam. The 
 
 - **Task 1: 2D Image Detection**
 - **Task 2: 3D Point Cloud Ground Removal**
-- **Task 3: Visualization Skills**
+- **Task 3: Data Processing**
 
 You can choose to complete one or more of these tasks based on your interests and expertise. Each task has its own README file with specific instructions.
 
