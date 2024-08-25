@@ -54,4 +54,6 @@ In this task, you'll work with 3D point cloud data (PCD) to remove the ground po
 
 - Take a screenshot of the terminal output showing the inference speed and save it in the `result` directory as well.
 
- 
+#### Optional
+
+- Based on the inference time, you can further optimize your algorithm to improve the inference time.

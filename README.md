@@ -75,4 +75,7 @@ After completing your selected tasks, follow the instructions below to submit yo
 - Incomplete or improperly submitted tasks may not be considered.
 - Refer to the individual task READMEs for specific instructions related to each task.
 
+
+- For any questions or clarifications, please reach out to the Autodrive Challenge team by conatcing the contact list on the website.
+
 Good luck, and we look forward to reviewing your submission!
