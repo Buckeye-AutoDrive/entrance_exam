@@ -6,6 +6,7 @@ from PIL import Image
 import time
 import os
 import json
+
 from ground_removal import ground_removal
 
 def load_point_cloud(file_path):
@@ -85,7 +86,7 @@ def visualize_multiple_point_clouds(image_files, pcd_files, camera_settings):
         autosize=True,
         height=600 * num_data,
         showlegend=False,
-        margin=dict(l=30, r=30, t=60, b=30),
+        margin=dict(l=30, r=60, t=60, b=30),
     )
 
     pio.show(fig)
