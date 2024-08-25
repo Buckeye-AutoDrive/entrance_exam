@@ -8,21 +8,16 @@ In this task, you'll work with 3D point cloud data (PCD) to remove the ground po
 
 - The provided base code (`run.py`) handles reading the point cloud data from a `.bin` file and visualizing both the raw and filtered point clouds. It also measures and displays the inference time for the ground removal algorithm.
 
-  <br>
-
   To run the script, navigate to the `task_2` directory, set the `PYTHONPATH`, and execute the script:
-  ```
+  
+- ```
   cd task_2
   python run.py
   ```
 
   This ensures that the script can correctly access all necessary data and resources within the `task_2` directory.
 
-  <br>
-
 - There are four data visualizations included: the raw PCD in blue and the filtered (ground removed) PCD in red. Example outputs are available in the `sample_result` directory within `task_2` to help you understand the expected outcome.
-
-<br>
 
 #### 2. Implement Ground Removal
 
@@ -30,29 +25,19 @@ In this task, you'll work with 3D point cloud data (PCD) to remove the ground po
 
 - You can use any Python modules or algorithms you are comfortable with to achieve this.
 
-<br>
-
 #### 3. Run the Code and Visualize the Results
 
 - After implementing your algorithm, run the following commands from the `task_2` directory:
 
-  <br>
-
   ```python run.py```
-
-  <br>
 
   This will visualize both the raw and filtered point clouds. The visualization will automatically display the raw PCD in blue and the filtered PCD (with the ground removed) in red.
 
 - If you haven't implemented the ground removal yet, you can still run `run.py` to see the raw PCD.
 
-<br>
-
 #### 4. Measure Inference Time
 
 - The `run.py` script will automatically measure and display the inference time for your ground removal algorithm in the terminal. Ensure that your implementation is efficient.
-
-<br>
 
 #### 5. Save and Document Your Results
 
