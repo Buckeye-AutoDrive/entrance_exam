@@ -46,22 +46,14 @@ To get started, you'll need to install Miniconda. Follow these steps:
 
 1. **Create and configure the environment using the provided `environment.yml` file:**
 
-    <br>
-
    `conda env create -f environment.yml`
-
-    <br>
    
     This command will create a new environment named `entrance_exam` with all the necessary dependencies.
 
 
 2. **Activate the environment:**
-
-    <br>
    
    `conda activate entrance_exam`
-   
-    <br>
    
    Activating the environment ensures that all subsequent work is done within this isolated environment.
 
