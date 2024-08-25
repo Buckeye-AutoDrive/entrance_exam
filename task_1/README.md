@@ -23,5 +23,12 @@ In this task, you'll focus on 2D image object detection using a neural network. 
    - Once detection is complete, draw bounding boxes around the detected objects and label each box with the corresponding object name. Use any appropriate method or tool for this step.
    - You can refer to the `sample_results` directory to see examples of the possible output, which includes images with bounding boxes and labels.
 
-7. **Save and Document Your Results**
+7. **Create the Result Directory**
+   - Create a result directory with this code:
+
+     ```
+     mkdir result
+     ```
+  
+8. **Save and Document Your Results**
    - Save the images with the bounding boxes and labels under the `result` directory.
