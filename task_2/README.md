@@ -10,8 +10,10 @@ In this task, you'll work with 3D point cloud data (PCD) to remove the ground po
 
   To run the script, navigate to the `task_2` directory and execute the script:
   
+  ```
   cd task_2  
   python run.py
+  ```
 
   This ensures that the script can correctly access all necessary data and resources within the `task_2` directory.
 
@@ -27,8 +29,10 @@ In this task, you'll work with 3D point cloud data (PCD) to remove the ground po
 
 - After implementing your algorithm, run the following command from the `task_2` directory:
 
+  ```
   python run.py
-
+  ```
+  
   This will visualize both the raw and filtered point clouds. The visualization will automatically display the raw PCD in blue and the filtered PCD (with the ground removed) in red.
 
 - If you haven't implemented the ground removal yet, you can still run `run.py` to see the raw PCD.
