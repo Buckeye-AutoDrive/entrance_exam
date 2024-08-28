@@ -72,7 +72,6 @@ After completing your selected tasks, follow the instructions below to submit yo
 ## Important Notes
 
 - Make sure to thoroughly test your code before submission.
-- Incomplete or improperly submitted tasks may not be considered.
 - Refer to the individual task READMEs for specific instructions related to each task.
 
 
