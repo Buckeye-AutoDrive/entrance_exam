@@ -1,7 +1,7 @@
 # Entrance Exam
 Autodrive Challenge Year 4 Perception Entrance Exam
 
-Welcome to the Autodrive Challenge Year 4 Perception Entrance Exam. This exam is designed to assess your fundamental problem-solving skills in areas critical to our team's success. You have the option to choose from three different tasks, each focusing on a specific aspect of perception: 2D image detection, 3D lidar data processing, and visualization skills. You are encouraged to use all available resources to complete the tasks to the best of your ability. The deadline for submission is **September 4, 11:59 PM**.
+Welcome to the Autodrive Challenge Year 4 Perception Entrance Exam. This exam is designed to assess your fundamental problem-solving skills in areas critical to our team's success. You have the option to choose from three different tasks, each focusing on a specific aspect of perception: 2D image detection, 3D lidar data processing, and visualization skills. You are encouraged to use all available resources to complete the tasks to the best of your ability. The deadline for submission is **September 6, 11:59 PM**.
 
 ## Repository Overview
 
