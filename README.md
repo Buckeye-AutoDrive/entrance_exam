@@ -44,11 +44,11 @@ To get started, you'll need to install Miniconda. Follow these steps:
 
 #### 2. Setting Up the Environment with Conda
 
-1. **Create and configure the environment using the provided `environment.yml` file:**
+1. **Create a conda environment `entrance_exam` with python version `3.8`:**
 
-   `conda env create -f environment.yml`
+   `conda create -n entrance_exam python=3.8`
    
-    This command will create a new environment named `entrance_exam` with all the necessary dependencies.
+    This command will create a new environment named `entrance_exam` with base dependencies.
 
 
 2. **Activate the environment:**
@@ -56,6 +56,14 @@ To get started, you'll need to install Miniconda. Follow these steps:
    `conda activate entrance_exam`
    
    Activating the environment ensures that all subsequent work is done within this isolated environment.
+
+3. **Install the required packages:**
+
+   Run the following command to install the required packages:
+
+   `pip install -r requirements.txt`
+
+   This command will install all the necessary packages for completing the tasks.
 
 ## Submitting Your Work
 
